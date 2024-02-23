@@ -1,0 +1,262 @@
+* {
+    margin: 0;
+    padding: 0px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: 
+        linear-gradient(rgb(34, 0, 0, 0.5), rgb(34, 0, 0, 0.5), rgb(34, 0, 0, 0.5)),
+        url(https://beautifulbooks.info/wp-content/uploads/2023/07/yarros-empyrean-fourth-wing-hestia-header.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    text-align: center;
+    align-items: center;
+}
+
+/* HEADER */
+header {
+    position: sticky;
+    margin-bottom: 8%;
+}
+
+nav {
+    top: 0;
+    width: 100%;
+    height: 75px;
+    line-height: 75px;
+    padding: 0px 100px;
+    position: fixed;
+    background-image: linear-gradient(90deg,  rgb(34, 0, 0), rgb(89, 0, 13), rgb(34, 0, 0));
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+nav .logo p {
+    font-size: 30px;
+    font-weight: bold;
+    float: left;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+}
+
+nav ul {
+    float: right;
+}
+
+nav li {
+    display: inline-block;
+    list-style: none;
+}
+
+nav li a{
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 0px 30px;
+    color: white;
+    text-decoration: none; /* removes link underline */
+}
+
+nav li a:hover {
+    color: orange;
+    transition: all 0.3s ease 0s;
+}
+
+
+/* GENERAL CONTENTS */
+
+.maincontent img {
+    max-width: 20%;
+    margin-bottom: 30px;
+}
+
+.maincontent section {
+        min-height: 80vh;
+}
+
+/* WELCOME SECTION */
+#welcome, #programme, #rsvp {
+    max-width: 90%;
+    margin: 100px;
+    padding: 50px 5px;
+    background-color: rgba(0, 0, 0, 0.55);
+    border: 60px solid transparent;
+    border-image: url(https://img1.picmix.com/output/stamp/normal/2/7/6/5/1735672_5bc71.png) 25% round;
+}
+
+#welcome .quote {
+    margin: 0;
+    margin-bottom: -15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    background: linear-gradient(rgb(255, 235, 55), rgb(255, 106, 0)); 
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+#welcome h1 {
+    font-size: 2.6vw; /* was 40px */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    letter-spacing: 1.5px;
+    margin-top: 40px;
+}
+
+#welcome p {
+    margin-top: -10px;
+}
+
+#welcome button {
+    margin: 5%;
+    margin-bottom: 0;
+    padding: 10px 50px;
+    font-size: 2.3vh;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    background-image: linear-gradient(90deg,  rgb(34, 0, 0), rgb(89, 0, 13), rgb(34, 0, 0));
+}
+
+#welcome button:hover {
+    background-image: linear-gradient(90deg,  rgb(74, 0, 23), rgb(139, 49, 0), rgb(74, 0, 23));
+    transition: all 0.5s ease 0s;
+}
+
+.container {
+    display: inline-flex;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.container img {
+    max-width: 10%;
+    margin: auto;
+}
+
+/* PROGRAMME SECTION */
+#programme {
+    max-width: 90%;
+    margin: 100px;
+    padding: 50px 5px;
+    background-color: rgba(0, 0, 0, 0.599);
+}
+
+#programme h1, #rsvp h1 {
+    font-size: 2.6vw; /* was 40px */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    letter-spacing: 1.5px;
+    margin: 40px 0px 0px 0px;
+}
+
+#programme h3 {
+    margin: 2%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.box h4 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.divided {
+    display: flex;
+    align-items: center;
+    margin: auto 15%;
+    padding: 5px 0;
+}
+
+.light {
+    font-weight: lighter;
+}
+  
+.divider {
+    flex-grow: 1;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    margin: 5px
+}
+
+.grid {
+    display: flex;
+    flex-direction: row;
+    max-width: 75%;
+    margin: auto;
+    margin-top: 2%;
+}
+
+.box {
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    width: 400px;
+}
+
+.box p {
+    margin-top: 20px;
+}
+
+/* RSVP SECTION */
+#rsvp {
+    margin-bottom: 50px;
+    padding: 20px 5px;
+}
+
+#rsvp h4 {
+    margin-top: 20px;
+}
+
+form {
+    margin: auto;
+    max-width: 500px;
+    text-align: center;
+    padding: 30px;
+    border-radius: 10px;
+}
+input {
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    margin: 10px;
+}
+
+.input-element {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type=submit] {
+    background-image: linear-gradient(90deg,  rgb(34, 0, 0), rgb(89, 0, 13), rgb(34, 0, 0));
+    color: white;
+    font-size: 2.3vh;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-image: linear-gradient(90deg,  rgb(74, 0, 23), rgb(139, 49, 0), rgb(74, 0, 23));
+    transition: all 0.5s ease 0s;
+}
+
+label .small {
+    font-weight: bold;
+}
+
+/* FOOTER */
+footer {
+    top: 0;
+    width: 100%;
+    height: 75px;
+    line-height: 75px;
+    padding: 0px 100px 75px 100px;
+    background-image: linear-gradient(90deg,  rgb(34, 0, 0), rgb(89, 0, 13), rgb(34, 0, 0));
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+}

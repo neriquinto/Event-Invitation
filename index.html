@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Invitation Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- HEADER -->
+    <header id="header">
+        <nav id="navbar">
+            <div class="logo">
+                <p>NAVARRE</p>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#welcome" class="nav-links">Welcome</a></li>
+                <li><a href="#programme" class="nav-links">Programme</a></li>
+                <li><b><a href="#rsvp" class="nav-links">RSVP</a></b></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- WELCOME SECTION -->
+    <div class="maincontent">
+        <section id="welcome">
+            <img src="./masquerade.png" alt="">
+            <h3 class="quote">Do you feel invincible? Untouchable? Elite? Then, you are in for a ride.</h3>
+            <div class="container">
+                <img src="./golddragon.png" alt="">
+                <h1>BASGIATH COLLEGE MASQUERADE BALL</h1>
+                <img src="https://static.vecteezy.com/system/resources/previews/024/499/882/non_2x/golden-chinese-dragon-ai-generative-free-png.png" alt="">
+            </div>
+            <p>Saturday, 6th of April 2024 at 4:30pm | Riders Quadrant Dragon Rotunda | Basgiath, Navarre</p>
+            <a href="#programme"><button>CONTINUE</button></a>
+        </section>
+
+        <!-- PROGRAMME SECTION -->
+        <section id="programme">
+            <div class="container">
+                <img src="./golddragon.png" alt="">
+                <h1>⤛ PROGRAMME ⤜</h1>
+                <img src="https://static.vecteezy.com/system/resources/previews/024/499/882/non_2x/golden-chinese-dragon-ai-generative-free-png.png" alt="">
+            </div>
+            <!-- divided -->
+            <h3>Schedule of Events</h3>
+            <b>
+            <p class="divided">
+                <span class>Arrival of Guests</span>
+                <span class="divider"></span>
+                <span>4:30pm</span>
+            </p>
+            <p class="divided">
+                <span class>Opening Remarks <span class="light">by General Melgren</span></span>
+                <span class="divider"></span>
+                <span>6:00pm</span>
+            </p>
+            <p class="divided">
+                <span class>Intermission Number <span class="light">by Xaden Riorson</span></span>
+                <span class="divider"></span>
+                <span>6:30pm</span>
+            </p>
+            <p class="divided">
+                <span class>Photo-Op and Dinner</span>
+                <span class="divider"></span>
+                <span>7:00pm</span>
+            </p>
+            <p class="divided">
+                <span class>Open Dance Floor</span>
+                <span class="divider"></span>
+                <span>8:00pm</span>
+            </p>
+            <p class="divided">
+                <span class>Awarding Ceremony</span>
+                <span class="divider"></span>
+                <span>11:30pm</span>
+            </p>
+            <p class="divided">
+                <span class>Closing Remarks <span class="light">by General Sorrengail</span></span>
+                <span class="divider"></span>
+                <span>12:30am</span>
+            </p>
+            <!-- REMINDERS -->
+            <h3>Dress Code</h3>
+            <p class="divided">
+                <span class>Leadership</span>
+                <span class="divider"></span>
+                <span>Gold</span>
+            </p>
+            <p class="divided">
+                <span class>Basgiath College Students</span>
+                <span class="divider"></span>
+                <span>Black/Red</span>
+            </p>
+            <p class="divided">
+                <span class>Outside Guests</span>
+                <span class="divider"></span>
+                <span>White</span>
+            </p>
+            </b>
+            <!-- OTHER DETAILS -->
+            <div class="grid">
+                <div class="box">
+                    <h4><b>Hosted by</b></h4>
+                    <p>Liam Mairi & Violet Sorrengail</p>
+                </div>
+                <div class="box">
+                    <h4><b>Featuring</b></h4>
+                    <p>Entertainment, Live Music, & Fireworks Display</p>
+                </div>
+                <div class="box">
+                    <h4><b>Contacts</b></h4>
+                    <p>+63 945 188 230<br>navarreevents@gmail.com</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- RSVP SECTION -->
+        <section id="rsvp">
+            <div class="container">
+                <img src="./golddragon.png" alt="">
+                <h1>⤛ RSVP ⤜</h1>
+                <img src="https://static.vecteezy.com/system/resources/previews/024/499/882/non_2x/golden-chinese-dragon-ai-generative-free-png.png" alt="">
+            </div>
+            <h4>Your response is kindly requested until 15th of March 2024.</h4>
+            <form id="rsvp-form">
+                <div class="input-element">
+                    <label for="name"><b>Name</b> (Last Name, First Name)</label>
+                    <input type="text" id="name" name="name" placeholder="Please enter your name">
+                </div>
+                <div class="radio-input">
+                    <label><input type="radio" name="concert" value="accept"/>Accepts with pleasure</label><br>
+                    <label><input type="radio" name="concert" value="decline"/>Declines with regret</label>
+                </div>
+                <input type="submit" value="SUBMIT">
+            </form>
+        </section>
+    </div>
+    <footer>Copyright @2024; Designed by NERIZZA QUINTO</footer>
+</body>
+</html>
